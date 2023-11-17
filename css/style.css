@@ -16,7 +16,7 @@
     --font: 'Poppins', sans-serif;
 }
 
-body{
+body, main{
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -52,7 +52,7 @@ body{
 
                                     /*Parte do Formulário*/
 
-.card{
+.card_signup{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,7 +82,7 @@ body{
 
                                     /*Container do Formulário*/
 
-.card_container{
+.form_container{
     display: flex;
     align-items: center;
     justify-content: center;
