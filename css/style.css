@@ -10,6 +10,7 @@
     --green: hsl(154, 59%, 51%);
     --green_active: hsla(154, 59%, 51%, 0.63);
     --blue: hsl(248, 32%, 49%);
+    --blue_active: hsl(248, 35%, 61%);
     --dark_blue: hsl(249, 10%, 26%);
     --grayish_blue: hsl(246, 25%, 77%);
     --font: 'Poppins', sans-serif;
@@ -67,6 +68,10 @@ body{
     width: 450px;
     height: 40px;
     cursor: pointer;
+}
+
+.trial_btn:hover{
+    background-color: var(--blue_active);
 }
 
 .card_container{
