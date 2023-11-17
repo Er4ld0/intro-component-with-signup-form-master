@@ -1,13 +1,22 @@
-@media (max-width: 459px) {
-
+@media (max-width: 654px) {
   body {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     height: 100%;
     gap: 60px;
-    margin: 40px 0;
+    margin: 40px 40px;
   }
 
   /*Parte do Aside*/
@@ -38,7 +47,7 @@
     gap: 20px;
   }
 
-  .card_container{
+  .card_container {
     height: 420px;
   }
 
