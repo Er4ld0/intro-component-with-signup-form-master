@@ -1,63 +1,76 @@
-@media only screen and (max-width: 784px) {
+@media (max-width: 459px) {
 
-    body {
-      background-image: url(../images/bg-intro-mobile.png);
-    }
-  
-    main {
-      margin: 90px 23px 0;
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    gap: 60px;
+    margin: 40px 0;
   }
-  
-    .flex-container {
-      display: block;
-    }
-  
-    /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
+
+  /*Parte do Aside*/
+
+  .info {
+    margin: 0;
+    padding: 0;
+    width: 320px;
+    height: 100%;
+    gap: 20px;
+    text-align: center;
   }
-  
-  .left-col{
-    color: #ffffff;
+
+
+  .title {
+    font-size: 2rem;
   }
-  
-  .right-col {
-  margin-left: 0;
+
+  .description {
+    font-size: 16px;
   }
-  
-  .content-container {
-    margin-top: 0px;
-      text-align: center;
-      margin-bottom: 80px
+
+  .card {
+    margin: 0;
+    padding: 0;
+    width: 320px;
+    height: 100%;
+    gap: 20px;
   }
-  h1 {
-    font-size: 28px;
-    line-height: 39px;
-    font-weight: 600;
+
+  .card_container{
+    height: 420px;
   }
-  
-  form {
-    padding: 25px 25px 1px;
+
+  /*Botão do Teste*/
+
+  .trial_btn {
+    padding: 0 60px;
+    width: 320px;
+    height: 80px;
   }
-  
-  input[type=text], input[type="email"], input[type="password"] {
-    width: 100%;
-    padding: 16px 17px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-    font-weight: 700;
-    font-family: inherit;
-    font-size: 14px;
-    outline: none;
+
+  /*Caixas de Texto*/
+
+  .textbox {
+    width: 280px;
+    height: 40px;
   }
-  
+
+  /*Botão de Submit*/
+
+  .claim_btn {
+    width: 280px;
+    height: 50px;
   }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
+
+  /*Termos e Serviços*/
+
+  .terms {
+    font-size: 10px;
+    padding: 0 50px;
+    text-align: center;
   }
+
+
+}
