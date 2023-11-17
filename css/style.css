@@ -28,7 +28,7 @@ body, main{
     gap:100px;
 }
 
-                                    /*Parte do Aside*/
+/*Parte do Aside*/
 
 .info{
   display: flex;
@@ -50,7 +50,7 @@ body, main{
     color: white;
 }
 
-                                    /*Parte do Formulário*/
+/*Parte do Formulário*/
 
 .card_signup{
     display: flex;
@@ -63,7 +63,7 @@ body, main{
     gap: 20px;
 }
 
-                                    /*Botão do Teste*/
+/*Botão do Free Trial*/
 
 .trial_btn{
     color: white;
@@ -80,7 +80,7 @@ body, main{
     background-color: var(--blue_active);
 }
 
-                                    /*Container do Formulário*/
+/*Container do Formulário*/
 
 .form_container{
     display: flex;
@@ -105,7 +105,7 @@ body, main{
     padding: 0px;
 }
 
-                                    /*Caixas de Texto*/
+/*Caixas de Texto*/
 
 .textbox{
     width: 350px;
@@ -120,7 +120,7 @@ body, main{
 
 
 
-                                    /*Botão de Submit*/
+/*Botão de Submit*/
 
 .claim_btn{
     font-weight: 600;
@@ -138,7 +138,7 @@ body, main{
     background-color: var(--green_active);
 }
 
-                                    /*Termos e Serviços*/
+/*Termos e Serviços*/
 
 .terms{
     color: var(--grayish_blue);
