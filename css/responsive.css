@@ -6,6 +6,12 @@
     flex-direction: column;
     margin: 20px;
   }
+
+  button.trial_btn {
+    padding: 0 60px;
+    width: 320px;
+    height: 80px;
+  }
 }
 
 @media (max-width: 1070px) {
@@ -53,9 +59,8 @@
  /*Botão do Free Trial*/
 
   .trial_btn {
-    padding: 0 60px;
     width: 320px;
-    height: 80px;
+    height: 40px;
   }
 
   /*Caixas de Texto*/
