@@ -1,5 +1,7 @@
 @media (max-width: 735px) {
-  body, main {
+
+  body,
+  main {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,16 +9,26 @@
     margin: 20px;
   }
 
+  /*Botão do Free Trial*/
+
   button.trial_btn {
     padding: 0 60px;
     width: 320px;
     height: 80px;
   }
+
+  /*Botão de Submit*/
+
+  button.claim_btn {
+    width: 280px;
+    height: 50px;
+  }
 }
 
 @media (max-width: 1070px) {
 
-  body, main {
+  body,
+  main {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,7 +68,7 @@
     height: 420px;
   }
 
- /*Botão do Free Trial*/
+  /*Botão do Free Trial*/
 
   .trial_btn {
     width: 320px;
@@ -74,7 +86,7 @@
 
   .claim_btn {
     width: 280px;
-    height: 50px;
+    height: 40px;
   }
 
   /*Termos e Serviços*/
