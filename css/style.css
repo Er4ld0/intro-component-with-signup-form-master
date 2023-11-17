@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+:root{
+    --red: hsl(0, 100%, 74%);
+    --green: hsl(154, 59%, 51%);
+    --green_active: hsla(154, 59%, 51%, 0.63);
+    --blue: hsl(248, 32%, 49%);
+    --dark_blue: hsl(249, 10%, 26%);
+    --grayish_blue: hsl(246, 25%, 77%);
+    --font: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background: url(../images/bg-intro-desktop.png) no-repeat;
+    background-color: var(--red);
+    height: 100%;
+    gap:100px;
+}
+
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-direction: column;
+  width: 500px;
+  height: 100%;
+  margin-left: 80px;
+  gap: 20px;
+}
+
+.title{
+    color: white;
+    font-size: 3rem;
+}
+
+.description{
+    color: white;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 450px;
+    height: 100%;
+    margin-right: 80px;
+    gap: 20px;
+}
+
+.trial_btn{
+    color: white;
+    background-color: var(--blue);
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 450px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.card_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    height: 405px;
+    border-radius: 10px;
+    gap: 15px;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px;
+}
+
+.textbox{
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: groove;
+}
+
+::placeholder{
+    padding: 20px;
+}
+
+.claim_btn{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    background-color: var(--green);
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.claim_btn:hover{
+    background-color: var(--green_active);
+}
+
+.terms{
+    color: var(--grayish_blue);
+    font-size: 8px;
+    font-weight: 700;
+}
+
+.terms a{
+    font-weight: 700;
+    color: var(--red);
+    text-decoration: none;
+}
